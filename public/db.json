@@ -1,30 +1,47 @@
 {
   "profile": {
-    "name": "Walid ZEIDI",
+    "name": "Walid ZAIDI",
     "roleParts": {
-      "prefix": "Développeur Web ",
-      "highlight": "Full Stack Senior",
-      "middle": "Intégrateur UI/UX",
+      "prefix": "Développeur ",
+      "highlight": "Full Stack ",
+      "middle": "& Intégrateur Senior",
       "suffix": "17 ans d'expérience"
     },
-    "pitch": "Fort de 17 années d'expérience dans le développement web, j'allie une double compétence technique et opérationnelle : de l'architecture logicielle haute performance aux interfaces utilisateur modernes. Spécialisé dans la création d'applications sur mesure, l'intégration d'API complexes, l'optimisation de la vitesse d'affichage et le SEO technique (Google Search Console & Analytics), je maîtrise le cycle de vie complet des projets. Agnostique sur les technologies et hautement adaptable, je conçois des solutions robustes, évolutives et axées sur la performance, l'expérience utilisateur et la valeur business.",
+    "pitch": "Développeur Full Stack & Intégrateur Senior, 17 ans d'expérience en développement web. Spécialisé dans les applications sur mesure (Laravel, Vue.js, Node.js, TypeScript), l'intégration d'API REST, les bases de données à forte volumétrie et l'optimisation des performances. Actuellement en charge de la digitalisation des processus administratifs d'un établissement d'enseignement.",
     "photo": "/photo-walid.png",
-    "photoTag": "walid.zeidi",
-    "cvFile": "/cv-walid-zeidi.pdf",
+    "photoTag": "walid.zaidi",
+    "cvFile": "/cv-walid-zaidi.pdf",
     "topbarLogoPrefix": "walid",
-    "topbarLogoSuffix": "zeidi",
+    "topbarLogoSuffix": "zaidi",
     "topbarStatus": "disponible — Tunis, TN"
   },
   "contact": {
     "email": "zaidi.walid@gmail.com",
     "phoneHref": "+21650656149",
     "phoneDisplay": "+216 50 65 61 49",
-    "location": "Tunis, Tunisie (Nationalité tunisienne)",
-    "mobility": "Ouvert au Remote (Télétravail) & Opportunités à l'international",
-    "linkedinLabel": "walid-zeidi",
-    "linkedinUrl": "https://linkedin.com/in/walid-zeidi"
+    "location": "Tunis, Tunisie",
+    "mobility": "Ouvert au remote et aux opportunités à l'international",
+    "linkedinLabel": "walid-zaidi",
+    "linkedinUrl": "https://linkedin.com/in/walid-zaidi-dev"
   },
   "experiences": [
+    {
+      "id": "academie-des-chefs",
+      "method": "POST",
+      "methodClass": "post",
+      "company": "L’Académie des Chefs",
+      "path": "",
+      "duration": "en cours",
+      "period": "Octobre 2026 – Maintenant",
+      "location": "Tunis, Tunisie",
+      "role": "Responsable Scolarité & Digitalisation des Processus Administratifs",
+      "tasks": [
+        "Digitalisé le parcours d'inscription (inscription en ligne, dossiers dématérialisés) pour 270 étudiants par an",
+        "Paramétré et déployé le SI scolaire : structuration des données, gestion des droits d'accès, formation des utilisateurs",
+        "Automatisé les tâches administratives (documents, notifications, relances, imports de données) et conçu des tableaux de bord de suivi (effectifs, inscriptions, réussite, assiduité) pour la direction"
+      ],
+      "skills": "Digitalisation, SI scolaire, Automatisation, Tableaux de bord"
+    },
     {
       "id": "affitech",
       "method": "PUT",
@@ -32,14 +49,14 @@
       "company": "/affitech",
       "path": "/full-stack-dev",
       "duration": "1 an et 6 mois",
-      "period": "janv 2025 → juin 2026",
+      "period": "Janvier 2025 – Juin 2026",
       "location": "Ariana, Tunisie",
       "role": "Développeur Web Full Stack",
       "tasks": [
-        "<b>Intégration d'API & Data :</b> Développement et intégration d'API REST tiers (Powens, Enedis, Santévet, Bulle Bleue) pour la centralisation et la synchronisation sécurisée de données (bancaires, énergie, assurance).",
-        "<b>Visualisation & Analyse de Données :</b> Intégration de graphiques dynamiques et tableaux de bord interactifs pour l'analyse, le suivi des métriques et la restitution visuelle de données complexes.",
-        "<b>Architecture & Moteurs Métier :</b> Conception du moteur de segmentation marketing <b>Helee</b> (traitement temps réel de millions de profils / MySQL à forte volumétrie) et du système de contrôle qualité par IA <b>Scribb</b>.",
-        "<b>Plateformes :</b> Co-conception des plateformes <b>AffiConnect</b> (gestion de centres d'appels, agents et scripts de vente) et <b>Affi+</b> (gestion de contrats d'énergie)."
+        "Développé et intégré des API REST tierces (Powens, Enedis, Santévet, Bulle Bleue) pour centraliser et synchroniser de façon sécurisée des données bancaires, énergétiques et d'assurance",
+        "Intégré des graphiques dynamiques et des tableaux de bord interactifs pour l'analyse et le suivi de métriques",
+        "Conçu le moteur de segmentation marketing Helee (traitement en temps réel de millions de profils, MySQL à forte volumétrie) et le système de contrôle qualité par IA Scribb",
+        "Co-conçu les plateformes AffiConnect (gestion de centres d'appels, agents et scripts de vente) et Affi+ (gestion de contrats d'énergie)"
       ],
       "skills": "PHP, REST API, Webhooks, MySQL, High Load, Visualisation de Données"
     },
@@ -50,13 +67,13 @@
       "company": "/1waydev",
       "path": "/frontend-dev",
       "duration": "2 ans",
-      "period": "févr 2023 → janv 2025",
+      "period": "Février 2023 – Janvier 2025",
       "location": "Ariana, Tunisie",
       "role": "Développeur Front-End & Intégrateur UI/UX",
       "tasks": [
-        "<b>Intégration Graphique & UI :</b> Transposition de maquettes graphiques en interfaces web dynamiques, réactives et conformes aux normes UI/UX et Responsive Design.",
-        "<b>Collaboration & Intégration :</b> Collaboration étroite avec les équipes de design et de développement pour assurer l'intégration des composants front-end et l'optimisation des interfaces utilisateur.",
-        "<b>Performance & Base de Données :</b> Participation à la gestion et à l'optimisation des bases de données pour garantir l'intégrité des données et la performance des sites."
+        "Transposé des maquettes graphiques en interfaces web dynamiques et responsives, conformes aux normes UI/UX",
+        "Collaboré avec les équipes design et développement pour intégrer les composants front-end et optimiser les interfaces",
+        "Participé à l'optimisation des bases de données pour garantir l'intégrité des données et la performance des sites"
       ],
       "skills": "JavaScript, HTML5, CSS3/Sass/Less, UI/UX, Responsive Design, MySQL"
     },
@@ -67,12 +84,11 @@
       "company": "/az-esthetique",
       "path": "/freelance-project",
       "duration": "2 mois",
-      "period": "déc 2022 → janv 2023",
+      "period": "Décembre 2022 – Janvier 2023",
       "location": "Tunis, Tunisie",
       "role": "Développeur Web Freelance / Chef de Projet",
       "tasks": [
-        "<b>Plateforme Métier & Parcours Patient :</b> Conception d'une plateforme de gestion complète du parcours patient en chirurgie esthétique (diagnostic à distance, génération de devis, gestion des médias et suivi post-opératoire).",
-        "<b>Développement Web & UI/UX :</b> Création du site web sous WordPress (thème sur mesure, développement de plugins métier, intégration UI/UX et charte graphique)."
+        "Conçu une plateforme de gestion du parcours patient en chirurgie esthétique (diagnostic à distance, devis, médias, suivi post-opératoire) et le site WordPress associé (thème et plugins sur mesure)"
       ],
       "skills": "WordPress, PHP, Plugins sur mesure, UI/UX, Parcours Patient"
     },
@@ -83,12 +99,12 @@
       "company": "/siroko-travel",
       "path": "/tech-lead",
       "duration": "10 ans et 11 mois",
-      "period": "févr 2012 → déc 2022",
+      "period": "Février 2012 – Décembre 2022",
       "location": "Tunis, Tunisie",
       "role": "Responsable Technique",
       "tasks": [
-        "<b>Architecture Multi-plateformes :</b> Conception et interconnexion en temps réel de 3 portails sur mesure (Patients, Chirurgiens, Agents) adossés à une base de données centralisée et sécurisée pour la gestion des dossiers médicaux (diagnostics, devis, suivi post-opératoire).",
-        "<b>Développement Web WordPress :</b> Conception et réalisation de sites web sous WordPress (thèmes et plugins sur mesure, intégration UI/UX et charte graphique) pour des institutions et acteurs du tourisme, notamment la Fédération Interprofessionnelle du Tourisme Tunisien et l'agence de voyages Explore."
+        "Conçu et interconnecté en temps réel 3 portails sur mesure (Patients, Chirurgiens, Agents) adossés à une base de données centralisée et sécurisée pour la gestion des dossiers médicaux (diagnostics, devis, suivi post-opératoire)",
+        "Réalisé des sites WordPress (thèmes et plugins sur mesure, intégration UI/UX et charte graphique) pour des institutions et acteurs du tourisme, dont la Fédération Interprofessionnelle du Tourisme Tunisien et l'agence Explore"
       ],
       "skills": "PHP, MySQL, WordPress, Architecture Système, Sécurité Données"
     },
@@ -99,12 +115,12 @@
       "company": "/siroko-travel",
       "path": "/webmaster",
       "duration": "2 ans et 5 mois",
-      "period": "oct 2009 → févr 2012",
+      "period": "Octobre 2009 – Février 2012",
       "location": "Tunis, Tunisie",
       "role": "Webmaster",
       "tasks": [
-        "<b>Développement Web & Stratégie SEO :</b> Conception, optimisation de la rapidité et gestion d'un réseau de 15+ sites web. Suivi des performances SEO via Google Search Console & Google Analytics pour propulser le trafic organique et maximiser la génération de devis.",
-        "<b>Administration Système :</b> Administration du serveur interne et gestion des sessions utilisateurs."
+        "Conçu, optimisé et géré un réseau de 15+ sites web ; suivi du SEO via Google Search Console & Analytics pour développer le trafic organique et la génération de devis",
+        "Administré le serveur interne et les sessions utilisateurs"
       ],
       "skills": "SEO Technique, Google Search Console, Google Analytics, Admin Serveur"
     }
@@ -308,47 +324,38 @@
   "stack": [
     {
       "ln": "01",
-      "mod": "PHP, JavaScript, HTML5, CSS3/Sass/Less, WordPress (thèmes et plugins sur mesure)",
-      "from": "langages-frameworks"
+      "from": "Back-end",
+      "mod": "PHP (Laravel, architecture MVC, POO), Node.js, API REST, Webhooks"
     },
     {
       "ln": "02",
-      "mod": "Architecture MVC, POO, MySQL, Optimisation High Load, Temps réel",
-      "from": "architecture-moteurs"
+      "from": "Front-end",
+      "mod": "Vue.js, TypeScript, JavaScript, HTML5, CSS3 / Sass / Less, Responsive Design, Mobile-First"
     },
     {
       "ln": "03",
-      "mod": "Conception & Intégration d'API REST, Webhooks, Synchronisation de données tiers",
-      "from": "api-integrations"
+      "from": "CMS",
+      "mod": "WordPress (thèmes et plugins sur mesure)"
     },
     {
       "ln": "04",
-      "mod": "Web Vitals, Mise en cache, Minification, Lazy loading, Requêtes SQL haute performance",
-      "from": "performance-web"
+      "from": "Bases de données",
+      "mod": "MySQL (conception relationnelle, forte volumétrie, requêtes haute performance)"
     },
     {
       "ln": "05",
-      "mod": "SEO technique & structurel, Google Search Console, Google Analytics, Stratégies multisites",
-      "from": "seo-webmarketing"
+      "from": "DevOps & outils",
+      "mod": "Docker, Git, GitHub, Jira, Confluence, Slack, méthodes Agiles (Scrum, Kanban)"
     },
     {
       "ln": "06",
-      "mod": "Pixel Perfect, Responsive Design, Mobile-First, Accessibilité web (RGAA / WCAG)",
-      "from": "integration-uiux"
+      "from": "Performance & SEO",
+      "mod": "Web Vitals, mise en cache, minification, lazy loading, SEO technique, Google Search Console & Analytics"
     },
     {
       "ln": "07",
-      "mod": "Git, GitHub, Jira, Confluence, Slack, Méthodologies Agiles (Scrum, Kanban)",
-      "from": "devops-collaboration"
-    },
-    {
-      "ln": "08",
-      "mod": "Chiffrement des données, Gestion des accès, Conformité RGPD",
-      "from": "securite-conformite"
-    },
-    {
-      "ln": "09",
-      "comment": "17 ans d'expérience en production, solutions sur mesure axées performance."
+      "from": "Sécurité & conformité",
+      "mod": "Chiffrement des données, gestion des accès, RGPD, accessibilité (RGAA / WCAG)"
     }
   ],
   "integration": [
@@ -375,12 +382,16 @@
   ],
   "languages": [
     {
+      "name": "Arabe",
+      "level": "langue maternelle"
+    },
+    {
       "name": "Français",
-      "level": "Avancé"
+      "level": "Courant"
     },
     {
       "name": "Anglais",
-      "level": "Professionnel / Technique (Lu, écrit, échanges techniques)"
+      "level": "Professionnel (lu, écrit, échanges techniques)"
     }
   ],
   "formation": [

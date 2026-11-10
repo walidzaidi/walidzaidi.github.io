@@ -10,7 +10,7 @@
 
     <StackSection :stack="data.stack" />
 
-    <IntegrationSection :cards="data.integration" />
+    <!-- <IntegrationSection :cards="data.integration" /> -->
 
     <FormationSection :formation="data.formation" />
 

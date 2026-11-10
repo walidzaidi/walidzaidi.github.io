@@ -9,15 +9,15 @@
       <div v-for="line in stack" :key="line.ln">
         <span class="ln">{{ line.ln }}</span>
         <template v-if="line.comment">
-          <span class="comment">// {{ line.comment }}</span>
+          <span class="comment"> {{ line.comment }}</span>
         </template>
         <template v-else>
-          <span class="kw">import</span>
-          <span class="brace">{</span>
+          <!-- <span class="kw">import</span> -->
+          <span class="brace">{ </span>
+          <span class="src">'{{ line.from }}'</span>
+          <span class="brace"> } </span>
           <span class="mod">{{ line.mod }}</span>
-          <span class="brace">}</span>
-          <span class="from">from</span>
-          <span class="src">'{{ line.from }}'</span>;
+          <!-- <span class="from">from</span>; -->
         </template>
       </div>
     </div>

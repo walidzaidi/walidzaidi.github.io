@@ -5,7 +5,10 @@
         <div class="eyebrow">whoami<span class="cursor"></span></div>
         <h1>{{ profile.name }}</h1>
         <div class="role">
-          {{ profile.roleParts.prefix }}<span class="hl">{{ profile.roleParts.highlight }}</span><span class="sep">/</span>{{ profile.roleParts.middle }}<span class="sep">/</span>{{ profile.roleParts.suffix }}
+          {{ profile.roleParts.prefix }}<span class="hl">{{ profile.roleParts.highlight }}</span>
+          <!-- <span class="sep">/</span> -->
+          {{ profile.roleParts.middle }}
+          <!-- <span class="sep">/</span>{{ profile.roleParts.suffix }} -->
         </div>
       </div>
       <div class="hero-photo">
